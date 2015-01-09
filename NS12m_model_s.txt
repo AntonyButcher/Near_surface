@@ -1,0 +1,15 @@
+
+grid x=5 z=4 dh=0.006
+time dt=0.0006 t=2000
+block p=0.5 s=0.3 r=1.6
+block p=3 s=1.5 z1=0.0125 z2=4 r=2.4
+
+visual movie=5
+
+source type=2 x=2.5 z=0.1 freq=10 amp=0.001 
+        
+# Array 2
+sac x=2.5 z=0 file=‘ns12m_s’
+
+
+visual sample=0.1 movie=1 scale=1000000000000000000000000000000

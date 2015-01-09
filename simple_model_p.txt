@@ -1,0 +1,14 @@
+
+grid x=5 z=4 dh=0.006
+time dt=0.0006 t=2000
+block p=3 s=1.5 r=2.4
+
+visual movie=5
+
+source type=1 x=2.5 z=0.1 freq=10 amp=0.001 
+        
+# Array 2
+sac x=2.5 z=0 file=‘simple_p’
+
+
+visual sample=0.1 movie=1 scale=1000000000000000000000000000000
