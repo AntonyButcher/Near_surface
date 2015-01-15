@@ -1,0 +1,33 @@
+
+grid x=10 z=5 dh=0.006
+time dt=0.0006 t=4000
+block p=3 s=1.5 r=2.4
+
+visual movie=5
+
+source type=6 x=4 z=1 freq=10 amp=1e+16 strike=41 dip=85 rake=0
+        
+# Array 2
+sac x=4.0 z=0 file=‘m8_sim_s6_1km’
+sac x=4.1 z=0 file=‘m8_sim_s6_1km’
+sac x=4.2 z=0 file=‘m8_sim_s6_1km’
+sac x=4.3 z=0 file=‘m8_sim_s6_1km’
+sac x=4.4 z=0 file=‘m8_sim_s6_1km’
+sac x=4.5 z=0 file=‘m8_sim_s6_1km’
+sac x=4.6 z=0 file=‘m8_sim_s6_1km’
+sac x=4.7 z=0 file=‘m8_sim_s6_1km’
+sac x=4.8 z=0 file=‘m8_sim_s6_1km’
+sac x=4.9 z=0 file=‘m8_sim_s6_1km’
+sac x=5.0 z=0 file=‘m8_sim_s6_1km’
+sac x=5.1 z=0 file=‘m8_sim_s6_1km’
+sac x=5.2 z=0 file=‘m8_sim_s6_1km’
+sac x=5.3 z=0 file=‘m8_sim_s6_1km’
+sac x=5.4 z=0 file=‘m8_sim_s6_1km’
+sac x=5.5 z=0 file=‘m8_sim_s6_1km’
+sac x=5.6 z=0 file=‘m8_sim_s6_1km’
+sac x=5.7 z=0 file=‘m8_sim_s6_1km’
+sac x=5.8 z=0 file=‘m8_sim_s6_1km’
+sac x=5.9 z=0 file=‘m8_sim_s6_1km’
+sac x=6.0 z=0 file=‘m8_sim_s6_1km’
+
+visual sample=0.1 movie=1 scale=1000000000000000000000000000000
